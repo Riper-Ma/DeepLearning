@@ -110,7 +110,7 @@ def draw(weight):
 
 if __name__ == '__main__':
     dataMatrix,matLabel=loadDataSet()
-    weight=graAscent(dataMatrix,matLabel)
+    #weight=graAscent(dataMatrix,matLabel)
     weight=stocGraAscent1(dataMatrix,matLabel)
     print(weight)
     draw(weight)
